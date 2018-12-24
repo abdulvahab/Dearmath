@@ -2,8 +2,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/dearmath/public_html/
-    - export DEPLOYPATH1=/home/dearmath/public_html/img/
-    - export DEPLOYPATH2=/home/dearmath/public_html/cgi-bin/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp img/* $DEPLOYPATH1
-    - /bin/cp -R cgi-bin/* $DEPLOYPATH2
+    - cp -r * $DEPLOYPATH
+    #- export DEPLOYPATH1=/home/dearmath/public_html/img/
+    #- export DEPLOYPATH2=/home/dearmath/public_html/cgi-bin/
+    #- /bin/cp index.html $DEPLOYPATH
+    #- /bin/cp img/* $DEPLOYPATH1
+    #- /bin/cp -R cgi-bin/* $DEPLOYPATH2
