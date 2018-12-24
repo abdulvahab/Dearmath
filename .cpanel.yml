@@ -3,5 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/dearmath/public_html
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R img/* $DEPLOYPATH/
-    - /bin/cp -R cgi-bin/* $DEPLOYPATH/
+    - /bin/mkdir img $DEPLOYPATH
+    - /bin/cp -R img/* $DEPLOYPATH/img/
+    - /bin/mkdir cgi-bin $DEPLOYPATH
+    - /bin/cp -R cgi-bin/* $DEPLOYPATH/cgi-bin/
