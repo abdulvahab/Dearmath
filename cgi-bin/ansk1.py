@@ -32,7 +32,7 @@ else:
     html += "<script>function goBack(){window.location.assign('http://dearmath.co.uk/cgi-bin/word_prob_k1.py?username={}&level={}&choice={}'.format(name,level,choice))}</script>"
     html += "<a style='font-size:30px;color:white;' href='http://dearmath.co.uk/cgi-bin/word_prob_k1.py?username={}&level={}&choice={}'>Play Again</a></br></br>".format(name,level,choice)
     html += "<a style='font-size:30px;color:white;' href='http://dearmath.co.uk'>Take Rest</a>"
-html += "<footer style='position:fixed;bottom:0;left:0'><code style=color:red;align:center'>Copyright: Abdulvahab Kharadi ,2018. </code></footer>"
+html += "<footer style='position:fixed;bottom:0;left:0'><code style=color:red;align:center'>Copyright: Abdulvahab Kharadi ,2019. </code></footer>"
 html += "</body>"
 html += "</html>"
 print(html)

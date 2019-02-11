@@ -73,7 +73,7 @@ html += "<input type = 'hidden' name='choice' value={0}>".format(choice)
 html += "<input type = 'hidden' name='level' value={0}>".format(level)
 html += "<button style=width:30%;height:50px;background-color:magenta;font-size:40px;text-align:center;color:white; type='submit'><b>Submit</b></button>"
 html += "</form>"
-html += "<footer style='position:fixed;bottom:0;left:0'><code style=color:red;align:center'>Copyright: Abdulvahab Kharadi ,2018. </code></footer>"
+html += "<footer style='position:fixed;bottom:0;left:0'><code style=color:red;align:center'>Copyright: Abdulvahab Kharadi ,2019. </code></footer>"
 html += '</body>'
 html += '</html>'
 print(html)
